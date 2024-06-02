@@ -62,3 +62,13 @@ cd niji-proxy
 # Create .env file with the configuration
 
 # Using docker
+docker compose up
+
+# Using node
+npm install
+npm start
+```
+
+## License
+
+[MIT](./LICENSE)
