@@ -1,7 +1,7 @@
 {
   "name": "niji-proxy",
   "version": "1.0.0",
-  "description": "Proxy splitter server. Save data by only proxying the the domains that matter.",
+  "description": "Proxy slitter server. Save data by only proxying the the domains that matter.",
   "main": "index.js",
   "type": "module",
   "scripts": {

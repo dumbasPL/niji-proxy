@@ -1,6 +1,6 @@
 # niji-proxy
 
-Proxy splitter server. Save data by only proxying the the domains that matter.
+Proxy slitter server. Save data by only proxying the the domains that matter.
 
 ## Use case
 
