@@ -1,0 +1,24 @@
+{
+  "name": "niji-proxy",
+  "version": "1.0.0",
+  "description": "Proxy splitter server. Save data by only proxying the the domains that matter.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumbasPL/niji-proxy.git"
+  },
+  "author": "nezu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dumbasPL/niji-proxy/issues"
+  },
+  "homepage": "https://github.com/dumbasPL/niji-proxy#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "proxy-chain": "^2.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+services:
+  niji-proxy:
+    # image: dumbaspl/niji-proxy
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:8080:8080"
+    # use .env file
+    env_file:
+      - .env
+    # or use environment
+    # environment:
+    #   - GOOD_HOST_REGEX=
+    #   - GOOD_PROXY=
+    #   - BAD_PROXY=
+    #   # - DEBUG=1
